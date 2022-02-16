@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -25,11 +24,10 @@
         document.getElementById("demo").innerHTML = "Hello JavaScript!";
     </script>
 </head>
-
 <body>
     <div class="container">
         <div class="row">
-            <nav class="col-3">
+            <nav class="col col-md-6 col-lg-3">
                 <h1> Technical documentation</h1>
                 <ul>
                     <li><a href="#numberone">Introduction</a></li>
@@ -38,51 +36,41 @@
                     <li><a href="#numberfour">Topic 1</a></li>
                     <li><a href="#numberfive">Topic 2</a></li>
                 </ul>
-
             </nav>
-
-            <main class="col">
+            <main class="col col-md-6 col-lg-9">
                 <div>
-                <h2 id="numberone"> Introduction</h2>
-                <p> some contain about the main topic, for example Java documentation introduction about the
-                    language
-                </p>
+                    <h2 id="numberone"> Introduction</h2>
+                    <p> some contain about the main topic, for example Java documentation introduction about the
+                        language
+                    </p>
+                </div>
+                <div>
+                    <h2 id="numbertwo">What you should already know?</h2>
+                    <p>Background information before getting into the topic:</p>
+                    <ul>
+                        <li>Some list content</li>
+                        <li>Prerequisites</li>
+                        <li>Workings and assumptions</li>
+                    </ul>
+                </div>
+                <div>
+                    <h2 id="numberthree">About topic</h2>
+                    <p>More lines about the topics. For example, how the basic functionality works</p>
+                    <p>Technical documentation should be throught and to the point</p>
+                    <p>Write about features, comparisons with other languages</p>
+                </div>
+                <div>
+                    <h2 id="numberfour">Topic 1</h2>
+                    <p> Getting started with the actual documentation contetnt <span
+                            style="color: red; font-family: Arial, Helvetica, sans-serif;"> this would come in a
+                            different color and font indicating lines of code</span> </p>
+                </div>
+                <div>
+                    <h2 id="numberfive">Topic 2</h2>
+                    <p>Another topic about the main topic, for example, in the topic is Java, this could be variables or
+                        data types of Java </p>
+                </div>
+            </main>
         </div>
-
-        <div>
-            <h2 id="numbertwo">What you should already know?</h2>
-            <p>Background information before getting into the topic:</p>
-            <ul>
-                <li>Some list content</li>
-                <li>Prerequisites</li>
-                <li>Workings and assumptions</li>
-            </ul>
-        </div>
-
-        <div>
-            <h2 id="numberthree">About topic</h2>
-            <p>More lines about the topics. For example, how the basic functionality works</p>
-            <p>Technical documentation should be throught and to the point</p>
-            <p>Write about features, comparisons with other languages</p>
-        </div>
-
-        <div>
-            <h2 id="numberfour">Topic 1</h2>
-            <p> Getting started with the actual documentation contetnt <span
-                    style="color: red; font-family: Arial, Helvetica, sans-serif;"> this would come in a
-                    different color and font indicating lines of code</span> </p>
-        </div>
-
-        <div>
-            <h2 id="numberfive">Topic 2</h2>
-            <p>Another topic about the main topic, for example, in the topic is Java, this could be variables or
-                data types of Java </p>
-        </div>
-
-        </main>
-
     </div>
-
-    </div>
-
 </body>
