@@ -1,68 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        div {
+            line-height: 36px;
+            text-align: center;
+        }
+    </style>
 </head>
-
 <body>
-    <div align="center">
+    <form>
         <div>
             <h1>Employee Interests Survey form</h1>
-            <form>
-                <label>Enter your name: <input type="text"></label>
-            </form>
+            <label>Enter your name:<input type="text"></label>
         </div>
-        <p>
-        <form>
+        <div>
             <label for="department">Enter your department:</label>
             <input type="text" id="department">
-        </form>
-        </p>
-        <p>
-        <form> Tell us a little about yourself:
+        </div>
+        <div> Tell us a little about yourself:
             <textarea rows="5" cols="30"></textarea>
-        </form>
-        <form>
+        </div>
+        <div>
             <label> Do you exercise at home?
                 <input type="radio" name="question" value="yes">
                 Да
                 <input type="radio" name="question" value="no">
                 Нет
             </label>
-        </form>
-        </p>
-        <p>
-        <form>How do you like to read your favorite topics?
-            <div style="display: inline;">
-                <input id="books" type="checkbox"><label for="books">Books</label>
-            </div>
-            <input type="checkbox">Online resourses</input>
-            <input type="checkbox">
-            Phone apps
-            <input type="checkbox">
-            Magazines
-        </form>
-        </p>
-        <p>
-        <form> What genre of movies do you like?
+        </div>
+        <div>How do you like to read your favorite topics?
+            <input type="checkbox" id="check1"><label for="check1">Books</label>
+            <input type="checkbox" id="check2"><label for="check2">Online resourses</label>
+            <input type="checkbox" id="check3"><label for="check3">Phone apps</label>
+            <input type="checkbox" id="check4"><label for="check4">Magazines</label>
+        </div>
+        <div> What genre of movies do you like?
             <select>
                 <option>Comedy</option>
                 <option>Drama</option>
                 <option>Horror</option>
                 <option>Adventure</option>
             </select>
-        </form>
-        </p>
-        <p>
-        <form>
+        </div>
+        <div>
             <input type="submit" value="Submit"></input>
-        </form>
-        </p>
-    </div>
+        </div>
+    </form>
 </body>
-
 </html>
