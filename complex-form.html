@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+    <h1>The Form</h1>
+    <table border="1" cellpadding="0" cellspacing="0" width="100%">
+        <tr>
+        Personal data
+        <td>
+    <div><label>First name<input type="text"></label></div>
+    <div><label>Mid name<input type="text"></label></div>
+    <div><label>Surname<input type="text>"></label></div>
+    <div> Sex
+        <input type="radio" id="choice1" name="question" value="male">
+       <label for="choice1">male</label> 
+        <input type="radio" id="choice2" name="question" value="female">
+        <label for="choice2">female</label>
+</div>
+<div> Country
+    <select>
+        <option>Russian federation</option>
+        <option>USA</option>
+        <option>france</option>
+        <option>Spain</option>
+    </select>
+</div>
+<div>City
+    <input type="checkbox" id="check1"><label for="check1">Moscow</label>
+    <input type="checkbox" id="check2"><label for="check2">Ryazan</label>
+</div>
+<div>Photography
+    <input type="file" name="photo" accept="image/*,image/jpeg">
+</div>
+</td>
+</tr>
+<tr>
+    <td>
+<div>Title
+    <textarea name="comment" readonly>
+        Techologies
+        Web master
+        Database administrator
+        Computer - aided design
+        Finance
+        Economic Planning
+        Management accounting
+        Budgeting and planning
+     </textarea>
+    </div>
+    <div> Salary<input type="range" min="0" max="100" step="1" value="50"> </div>
+    <div> 
+        <label><textarea rows="5" cols="30">Tell us about yourself...</textarea></label>
+    </div>
+</tr>
+</td>
+<tr>
+    <td>
+    <div>Password<input type="password" maxlength="25" size="40" name="password"><div>
+   <div> <label>Age<input type="text"></label></div>
+<div><label>Site<input type="text"></label></div>
+       <div> <label>E-mail<input type="text"></label></div>
+       <div> <label>Phone<input type="text"></label></div>
+    </td>
+    </tr>
+    </table>
+    </form>
+</body>
