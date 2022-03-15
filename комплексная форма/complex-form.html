@@ -63,9 +63,10 @@
             </table>
             <hr>
             <table>
+                <tbody>
                 <tr>
                     <td>Title</td>
-                    <td><select>
+                    <td><select size="10px" multiple>
                             <optgroup label="Technologies">
                                 <option>Web master</option>
                                 <option>Database administrator</option>
@@ -82,6 +83,7 @@
                     <td>Salary</td>
                     <td><input type="range" min="0" max="100" step="1" value="50"></td>
                 </tr>
+            </tbody>
             </table>
             <label><textarea rows="5" cols="30">Tell us about yourself...</textarea>
         </fieldset>
@@ -102,16 +104,17 @@
                 </tr>
             </table>
         </fieldset>
-        <fieldset>
+     
             <table>
                 <tr>
                     <td><label for="password">Password</label></td>
                     <td><input type="password" id="password" maxlength="25" size="40" name="password"></td>
                 </tr>
             </table>
+            <hr>
             <input type="submit" value="отправить"></input>
             <input type="reset" value="Сброс"></input>
-        </fieldset>
+       
     </form>
 </body>
 </html>
