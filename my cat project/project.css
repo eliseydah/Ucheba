@@ -1,76 +1,61 @@
-body {
-    background-image: url(https://vectorcdr.com/wp-content/uploads/2017/08/cats_vector-02.jpg);
+body { background-image: url(https://vectorcdr.com/wp-content/uploads/2017/08/cats_vector-02.jpg);
 }
-
-h1 {
+h1{
     color: white;
     font-size: 60px;
-    text-align: center;
+   text-align: center;
 }
-
-nav {
-    color: white;
+nav{color: white;
     font-size: 24px;
-    background-color: rgba(90, 149, 238, 0.603);
+    background-color:rgba(90, 149, 238, 0.603);
     height: 2100px;
 }
-
-a {
-    color: white;
+a {color: white;
     font-size: 24px;
 }
-
-a:hover {
+a:hover{
     color: black;
 }
-
 li {
     list-style-type: none;
 }
-
-#numberone {
+#numberone{
+    color: rgb(90, 149, 238);
+    font-size:40px;
+font-style: italic;
+font-weight: bold;
+}
+#numbertwo{
     color: rgb(90, 149, 238);
     font-size: 40px;
-    font-style: italic;
-    font-weight: bold;
+font-style: italic;
+font-weight: bold;
 }
-
-#numbertwo {
+#numberthree{
     color: rgb(90, 149, 238);
     font-size: 40px;
-    font-style: italic;
-    font-weight: bold;
+font-style: italic;
+font-weight: bold;
 }
-
-#numberthree {
+#numberfour{
     color: rgb(90, 149, 238);
     font-size: 40px;
-    font-style: italic;
-    font-weight: bold;
+font-style: italic;
+font-weight: bold;
 }
-
-#numberfour {
+#numberfive{
     color: rgb(90, 149, 238);
     font-size: 40px;
-    font-style: italic;
-    font-weight: bold;
+font-style: italic;
+font-weight: bold;
 }
-
-#numberfive {
-    color: rgb(90, 149, 238);
-    font-size: 40px;
-    font-style: italic;
-    font-weight: bold;
-}
-
-p {
+p{
     background-color: rgba(243, 245, 247, 0.473);
     font-style: oblique;
 }
-
-.button {
+.button{
     color: white;
-    background-color: rgb(90, 149, 238);
+    background-color:rgb(90, 149, 238);
     text-align: center;
     text-decoration: none;
     display: block;
@@ -78,64 +63,53 @@ p {
     margin-left: 400px;
     width: 200px;
 }
-
-.thumb img {
+.thumb img  {
     border: 2px solid rgb(90, 149, 238);
     padding: 15px;
     margin-right: 10px;
-    margin-bottom: 10px;
-}
-
-div {
+    margin-bottom: 10px;}
+div{
     margin: 10px;
 }
-
-#name-input {
-    color: rgb(90, 149, 238);
+#name-input{
+    color:rgb(90, 149, 238) ;
     border: 2px;
     border-style: solid;
-    border-color: rgb(90, 149, 238);
+    border-color:rgb(90, 149, 238); 
     width: 400px;
 }
-
-#email-input {
-    color: rgb(90, 149, 238);
+#email-input { color:rgb(90, 149, 238) ;
     border: 2px;
     border-style: dashed;
-    border-color: rgb(90, 149, 238);
+    border-color:rgb(90, 149, 238);
     width: 400px;
 }
-
-#three {
-    color: rgb(90, 149, 238);
+#three { color:rgb(90, 149, 238) ;
     border: 2px;
     border-style: dotted;
-    border-color: rgb(90, 149, 238);
+    border-color:rgb(90, 149, 238);
     width: 400px;
 }
-
-.submit-button {
+.submit-button{
     background-color: rgba(76, 201, 76, 0.589);
     width: 120px;
     margin: 10px;
 }
-
-.reset-button {
+.reset-button{
     background-color: rgba(236, 87, 87, 0.664);
     width: 120px;
     margin: 10px;
 }
-
-.facts {
+.facts{
     color: black;
-    text-decoration: underline;
+    text-decoration:underline;
     text-align: center;
     margin-top: 200px;
     font-weight: bold;
     font-size: 30px;
 }
-
-article {
+article
+{
     color: black;
-    font-style: oblique;
+    font-style:oblique;
 }

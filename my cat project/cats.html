@@ -14,7 +14,7 @@
     <script>
         document.getElementById("demo").innerHTML = "Hello JavaScript!";
     </script>
-    <link href="C:\Users\Daria\Desktop\Ucheba\project.css" rel="stylesheet" type="text/css">
+        <link href="../project.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>
@@ -26,7 +26,7 @@
                         alt="лапка" width="40px" height="40px">
                 </h1>
                 <ul>
-                    <li><a href="#numberone" class="menu">Welcome</a></li>
+                    <li><a href="#numberone">Welcome</a></li>
                     <li><a href="#numbertwo">About breeds</a></li>
                     <li><a href="#numberthree">First Gallery</a></li>
                     <li><a href="#numberfour">Second gallery</a></li>
@@ -37,6 +37,7 @@
                     A lot of people in the world not only love cats, but also devote their whole lives to them.
                 </article>
             </nav>
+           
             <main class="col col-md-6 col-lg-9">
                 <div>
                     <img src="https://s1.1zoom.ru/big0/93/Cats_White_background_Kittens_531475_1280x828.jpg" alt="Cats"
@@ -75,20 +76,20 @@
                         <h2 id="numberfive">Contact us</h2>
                         <form>
                             <div>
-                                <label for="one"></label>
-                                <input type="text" placeholder="Name" id="one" required>
+                                <label for="name-input"></label>
+                                <input type="text" placeholder="Name" id="name-input" required>
                             </div>
                             <div>
-                                <label for="two"></label>
-                                <input type="text" placeholder="Email" id="two" required>
+                                <label for="email-input"></label>
+                                <input type="email" placeholder="Email" id="email-input" required>
                             </div>
                             <div>
                                 <label for="three"></label>
                                 <textarea rows="5" cols="22" placeholder="Message" id="three" required>
                                 </textarea>
                             </div>
-                            <input type="submit" class="b1" value="Отправить"></input>
-                            <input type="reset" class="b2" value="Сброс"></input>
+                            <input type="submit" class="submit-button" value="Отправить"></input>
+                            <input type="reset" class="reset-button" value="Сброс"></input>
                         </form>
             </main>
         </div>
