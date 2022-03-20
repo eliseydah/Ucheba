@@ -1,0 +1,37 @@
+body {
+    color: grey;
+}
+
+
+td {
+    padding: 10px;
+
+}
+
+.firstline {
+
+    background-color: rgba(30, 143, 255, 0.61);
+    text-transform: uppercase;
+}
+
+.firstline:hover {
+    background-color: rgba(128, 128, 128, 0.74);
+}
+
+
+.background-color-blue {
+    background-color: rgba(0, 255, 255, 0.596);
+}
+
+.background-color-blue:hover {
+    background-color: rgba(128, 128, 128, 0.74);
+}
+
+.background-color-cyan {
+    background-color: rgba(127, 255, 212, 0.603);
+}
+
+.background-color-cyan:hover {
+    background-color: rgba(128, 128, 128, 0.74);
+
+}
