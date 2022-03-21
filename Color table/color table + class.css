@@ -2,14 +2,11 @@ body {
     color: grey;
 }
 
-
 td {
     padding: 10px;
-
 }
 
 .firstline {
-
     background-color: rgba(30, 143, 255, 0.61);
     text-transform: uppercase;
 }
@@ -17,7 +14,6 @@ td {
 .firstline:hover {
     background-color: rgba(128, 128, 128, 0.74);
 }
-
 
 .background-color-blue {
     background-color: rgba(0, 255, 255, 0.596);
@@ -33,5 +29,4 @@ td {
 
 .background-color-cyan:hover {
     background-color: rgba(128, 128, 128, 0.74);
-
 }
