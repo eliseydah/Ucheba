@@ -1,0 +1,108 @@
+    body {
+        background-image: url(https://img.freepik.com/free-vector/oblique-lines-white-elegant-background_23-2148439598.jpg?size=626&ext=jpg&ga=GA1.1.2022285850.1643932800);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    td {
+        width: 90px;
+        height: 90px;
+        color: white;
+        background-color: rgb(99, 150, 247);
+        text-align: center;
+        border: 0.1px;
+        border-color: white;
+        border-style: solid;
+    }
+    
+    div {
+        font-size: 30px;
+        text-align: center;
+    }
+    
+    table {
+        margin-left: calc(50% - 100px);
+        border-spacing: 7px 11px;
+    }
+    
+    .first-cell {
+        transition: background-color 1s linear, color 1s linear;
+    }
+    
+    .first-cell:hover {
+        color: rgb(99, 150, 247);
+        background-color: white;
+    }
+    
+    .second-cell {
+        transition: opacity 1s linear;
+    }
+    
+    .second-cell:hover {
+        opacity: 0;
+    }
+    
+    .third-cell {
+        transform: scale(1);
+        opacity: 1;
+        transition: transform 1s linear, opacity 1s linear;
+    }
+    
+    .third-cell:hover {
+        transform: scale(2);
+        opacity: 0;
+    }
+    
+    .four-cell {
+        transform: scale(1);
+        transition: transform 1s linear;
+    }
+    
+    .four-cell:hover {
+        transform: scale(0.5);
+    }
+    
+    .five-cell {
+        transform: rotate(0deg);
+        transition: transform 1s linear;
+    }
+    
+    .five-cell:hover {
+        transform: rotate(90deg);
+    }
+    
+    .six-cell {
+        transform: scale(1, 1);
+        transition: transform 1s linear;
+    }
+    
+    .six-cell:hover {
+        transform: scale(1, 0.01);
+    }
+    
+    .seven-cell {
+        transform: scale(1);
+        transition: transform 0.5s linear;
+    }
+    
+    .seven-cell:hover {
+        transform: scale(0);
+    }
+    
+    .eight-cell {
+        transform: scale(1, 1);
+        transition: transform 0.5s linear;
+    }
+    
+    .eight-cell:hover {
+        transform: scale(2, 0);
+    }
+    
+    .nine-cell {
+        transform: skew(1);
+        transition: transform 0.5s linear;
+    }
+    
+    .nine-cell:hover {
+        transform: skew(20deg, 20deg);
+    }
