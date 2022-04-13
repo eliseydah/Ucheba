@@ -1,0 +1,38 @@
+div {
+    height: 200px;
+    width: 200px;
+    background-image: url(https://img.utdstc.com/icon/aa3/395/aa339558fb155b35fa8ddc75de53498f5c06e58515d5b4e11e273ef26ed71c82:200);
+    background-repeat: no-repeat;
+    box-shadow: inset 0px 0px 20px grey;
+}
+
+h1 {
+    color: white;
+    background-color: rgb(43, 132, 132);
+    max-width: 300px;
+    margin: 20px;
+    padding: 10px;
+}
+
+p {
+    background-color: rgba(163, 199, 199, 0.73);
+    margin: 20px;
+    padding: 10px;
+    max-width: 300px;
+}
+
+a:not(:last-of-type) {
+    border-right: 2px solid red;
+    border-bottom: 3px solid white;
+    transition: border-bottom 1s ease-in-out, border-right 1s ease-in-out;
+}
+
+a {
+    color: blue;
+    text-decoration: none;
+}
+
+a:not(:last-of-type):hover {
+    border-right: 3px solid white;
+    border-bottom: 3px solid blue;
+}
