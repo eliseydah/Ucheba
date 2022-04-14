@@ -1,0 +1,42 @@
+    .block {
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    background-color: red;
+}
+
+.circle {
+    margin-top: 200px;
+    width: 200px;
+    height: 200px;
+    margin-left: calc(50% - 25px);
+    background: radial-gradient(rgb(192, 62, 240), rgb(156, 237, 233));
+    border-radius: 200px;
+    animation-name: myRotate;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+    animation-direction: alternate-reverse;
+    position: relative;
+}
+
+@keyframes myRotate {
+    0% {
+        border-radius: 0px;
+    }
+    20% {
+        background: radial-gradient(rgb(225, 61, 159), rgb(231, 237, 239));
+    }
+    40% {
+        width: 100px;
+        height: 100px;
+        transform: scale(3);
+    }
+    60% {
+        transform: rotate(180deg)
+    }
+    80% {
+        background: radial-gradient(rgb(179, 32, 32), rgb(237, 234, 49));
+    }
+    100% {
+        border-radius: 200px;
+    }
