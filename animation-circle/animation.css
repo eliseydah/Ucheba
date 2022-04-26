@@ -1,9 +1,88 @@
-    .block {
+.block {
     width: 100px;
-    height: 100px;
-    border-radius: 100px;
-    background-color: red;
+    height: 30px;
+    margin-right: 10px;
+    background-color: deepskyblue;
+margin-top: 20px;}
+
+.redcircle {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: crimson;
+    animation-name: Jump;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+    animation-direction: alternate-reverse;
+    position:absolute;
 }
+.block-down {
+    width: 100px;
+    height: 30px;
+    background-color: deepskyblue;
+}
+@keyframes Jump{
+    from{ margin-top: 0px;}
+    to{ margin-top: 50px;}
+
+}
+
+.block-down {
+    width: 100px;
+    height: 30px;
+    margin-top: 100px;
+    background-color: deepskyblue;
+}
+.loading1{
+    width: 20px;
+    height: 10px;
+    background-color: gray;
+    margin: 10px 2px;
+    display: inline-block;
+    animation-name: Load1;
+    animation-iteration-count: infinite;
+    animation-duration: 0.5s;
+    animation-direction: alternate-reverse;
+    position: relative;
+}
+@keyframes Load1{
+    from{ opacity: 0%;}
+    to{ opacity: 100%;}
+   
+}
+.loading2{
+    width: 20px;
+    height: 10px;
+    background-color: gray;
+    margin: 10px 2px;
+    display: inline-block;
+    animation-name: Load2;
+    animation-iteration-count: infinite;
+    animation-duration: 0.6s;
+    animation-direction: alternate-reverse;
+    position: relative;}
+    @keyframes Load2{
+        from{   opacity: 0;}
+        to { opacity: 100%;}
+       }
+
+.loading3{
+            width: 20px;
+            height: 10px;
+            background-color: gray;
+            margin: 10px 2px;
+            display: inline-block;
+            animation-name: Load3;
+            animation-iteration-count: infinite;
+            animation-duration: 0.7s;
+            animation-direction: alternate-reverse;
+            position: relative;}
+
+      @keyframes Load3{
+          from{ opacity: 0%;}
+          to{ opacity: 100%;}
+      }
+        
 
 .circle {
     margin-top: 200px;
@@ -14,29 +93,33 @@
     border-radius: 200px;
     animation-name: myRotate;
     animation-iteration-count: infinite;
-    animation-duration: 5s;
+    animation-duration: 4s;
     animation-direction: alternate-reverse;
-    position: relative;
+    position: absolute;
 }
 
 @keyframes myRotate {
     0% {
         border-radius: 0px;
     }
+
     20% {
         background: radial-gradient(rgb(225, 61, 159), rgb(231, 237, 239));
     }
+
     40% {
-        width: 100px;
-        height: 100px;
-        transform: scale(3);
+        ;
+        transform: scale(2);
     }
+
     60% {
-        transform: rotate(180deg)
+        transform: rotate(180deg);
     }
+
     80% {
         background: radial-gradient(rgb(179, 32, 32), rgb(237, 234, 49));
     }
+
     100% {
         border-radius: 200px;
     }
