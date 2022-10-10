@@ -1,0 +1,143 @@
+.horizontal-block {
+    width: 100px;
+    height: 30px;
+    background-color: deepskyblue;
+    display: block;
+}
+
+.redcircle {
+    width: 50px;
+    height: 50px;
+    display: block;
+    border-radius: 50px;
+    background-color: crimson;
+    margin-bottom: 50px;
+    animation-name: Jump;
+    animation-iteration-count: infinite;
+    animation-duration: 1s;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+}
+
+@keyframes Jump {
+    from {
+        margin-bottom: 0px;
+        margin-top: 50px;
+    }
+
+    to {
+        margin-bottom: 50px;
+        margin-top: 0px;
+    }
+
+}
+
+.container-1 {
+    margin: 50px;
+}
+
+.container-3 {
+    display: flex;
+    align-items: center;
+}
+
+.container-2 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.vertical-block {
+    display: inline-block;
+    width: 30px;
+    height: 100px;
+    background-color: deepskyblue;
+}
+
+.yellowcircle {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    margin-right: 50px;
+    border-radius: 50px;
+    background-color: yellow;
+    animation-name: Slide;
+    animation-iteration-count: infinite;
+    animation-duration: 1s;
+    animation-direction: alternate-reverse;
+    animation-timing-function: linear;
+}
+
+@keyframes Slide {
+    from {
+        margin-right: 0px;
+        margin-left: 50px;
+    }
+
+    to {
+        margin-right: 50px;
+        margin-left: 0px;
+        l
+    }
+
+}
+
+.loading {
+    display: block;
+    margin: 30px;
+    border: 10px dotted #27eb3b;
+    border-radius: 30px;
+    padding: 10px;
+    width: 10px;
+    height: 10px;
+    animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.circle {
+    display: block;
+    width: 100px;
+    height: 100px;
+    background: radial-gradient(rgb(192, 62, 240), rgb(156, 237, 233));
+    border-radius: 100px;
+    animation-name: myRotate;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+    animation-direction: normal;
+}
+
+@keyframes myRotate {
+    0% {
+        border-radius: 0px;
+    }
+
+    20% {
+        background: radial-gradient(rgb(225, 61, 159), rgb(231, 237, 239));
+    }
+
+    40% {
+        ;
+        transform: scale(2);
+    }
+
+    60% {
+        transform: rotate(180deg);
+    }
+
+    80% {
+        background: radial-gradient(rgb(179, 32, 32), rgb(237, 234, 49));
+    }
+
+    100% {
+        border-radius: 200px;
+    }

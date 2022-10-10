@@ -1,0 +1,32 @@
+.topmenu {
+    text-align: center;
+    width: 100px;
+    height: 30px;
+    color: white;
+    background-color: deepskyblue;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    list-style: none;
+    border-bottom: ;
+}
+.topmenu:hover{background-color:rgb(0, 119, 255);
+
+}
+li{
+    list-style: none;
+}
+.menu{
+    text-align: center;
+    background-color: deepskyblue;
+    color: white;
+    width: 100px;
+    height: 30px;
+
+}
+.menu:last-child{
+border-bottom-left-radius: 10px;
+border-bottom-right-radius: 10px;}
+
+.menu:hover{
+background-color:rgb(0, 119, 255);
+}
