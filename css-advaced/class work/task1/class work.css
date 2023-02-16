@@ -1,0 +1,36 @@
+.header {
+    position: relative;
+    background-color: rgb(247, 223, 10);
+    color: black;
+    border-color: rgb(33, 218, 224);
+    border-style: solid;
+    border-bottom: none;
+}
+
+.arrow {
+    position:absolute;
+    width: 0;
+    height: 0;
+    left: 20px;
+    border: 20px solid transparent;
+    border-top: 20px solid rgb(247, 223, 10);
+    ;
+}
+
+.content {
+    padding: 20px;
+    background-color: antiquewhite;
+    color: grey;
+    border-color: rgb(33, 218, 224);
+    border-style: solid;
+    border-top: none;
+}
+
+.outside {
+    padding: 10px;
+    background-color: rgb(37, 245, 176);
+    border-width: 2px;
+    border-radius: 10px;
+    border-color: rgb(33, 218, 224);
+    border-style: solid;
+}
