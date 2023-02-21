@@ -8,13 +8,12 @@
 }
 
 .arrow {
-    position:absolute;
+    position: absolute;
     width: 0;
     height: 0;
     left: 20px;
     border: 20px solid transparent;
     border-top: 20px solid rgb(247, 223, 10);
-    ;
 }
 
 .content {
