@@ -1,0 +1,45 @@
+.top-menu {
+    border-radius: 0px 0px 10px 10px;
+    right: 50px;
+    border-top: 1px solid rgb(196, 193, 193);
+
+}
+
+.top-menu:hover {
+    box-shadow: 0px 0px 10px rgb(38, 123, 235);
+}
+
+div {
+    background-color: rgb(0, 153, 255);
+    color: white;
+    width: 100px;
+    text-align: center;
+}
+
+li:hover {
+    background-color: rgb(0, 123, 255);
+}
+
+input {
+    display: none;
+}
+
+ul {
+    display: none;
+    padding: 0;
+    width: 100px;
+}
+
+input:checked~ul {
+    display: block;
+}
+
+li {
+    width: 100%;
+    list-style-type: none;
+    text-align: center;
+}
+label{ border-top: 1px solid rgb(196, 193, 193);
+    display: block;
+
+}
