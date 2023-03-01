@@ -1,0 +1,47 @@
+.main {
+    background-image: url(https://gamerwall.pro/uploads/posts/2022-03/1648117897_1-gamerwall-pro-p-sinii-geometricheskii-fon-krasivie-1.jpg);
+    height: 40px;
+}
+
+
+.float-left {
+    float: left;
+}
+
+.stylized {
+    background-color: rgba(0, 170, 255, 0.5);
+    color: white;
+    height: 40px;
+    display: inline-flex;
+    align-items: center;
+    padding: 0px 5px;
+}
+
+.float-right {
+    float: right;
+}
+
+.stylized:hover {
+    background-color: red;
+}
+
+span {
+    background-color: red;
+    color: white;
+    border-radius: 100px;
+    padding: 0px 5px;
+}
+
+.exit {
+    background-color: black;
+}
+
+.exit-style {
+    background-color: black;
+}
+
+
+img {
+    width: 22px;
+    height: 20px;
+}
