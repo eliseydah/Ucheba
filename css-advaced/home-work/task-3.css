@@ -1,0 +1,84 @@
+.element1 {
+    width: 250px;
+    height: 300px;
+    background-image: url(th1.png);
+    background-size: contain;
+}
+
+.clear {
+    clear: left;
+}
+
+.element2 {
+    width: 250px;
+    height: 300px;
+    background-image: url(th2.png);
+    background-size: contain;
+}
+
+.component {
+    position: relative;
+    width: 270px;
+    float: left;
+    margin: 10px;
+}
+
+.component1 {
+    position: relative;
+    width: 270px;
+    margin: 10px;
+    display: inline-block;
+}
+
+.row2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.component2 {
+    position: relative;
+    width: 270px;
+    margin: 10px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: stretch;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cell {
+    width: 250px;
+    border: 1px solid rgb(142, 141, 141);
+    padding: 10px;
+}
+
+.button {
+    color: grey;
+    background-color: rgb(226, 226, 220);
+    border: 1px solid rgb(142, 141, 141);
+    padding: 10px 20px;
+    margin: 20px 0px;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.button:hover {
+    color: white;
+    background-color: rgb(74, 214, 74);
+}
+
+.text {
+    color: rgb(74, 214, 74);
+    font-weight: bold;
+}
+
+.second {
+    float: right;
+}
+
+.shadow {
+    background-color: rgba(128, 128, 128, 0.5);
+    color: white;
+    height: 100%;
+}
