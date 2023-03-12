@@ -1,7 +1,10 @@
-.element1 {
+.grey {
+    background-image: url(th1.png);
+}
+
+.element {
     width: 250px;
     height: 300px;
-    background-image: url(th1.png);
     background-size: contain;
 }
 
@@ -9,37 +12,31 @@
     clear: left;
 }
 
-.element2 {
-    width: 250px;
-    height: 300px;
+.green {
     background-image: url(th2.png);
-    background-size: contain;
 }
 
 .component {
     position: relative;
     width: 270px;
-    float: left;
     margin: 10px;
 }
 
-.component1 {
-    position: relative;
-    width: 270px;
-    margin: 10px;
+.float {
+    float: left;
+}
+
+.inline-block {
     display: inline-block;
 }
 
-.row2 {
+.container-flex {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
 }
 
-.component2 {
-    position: relative;
-    width: 270px;
-    margin: 10px;
+.flexbox {
     flex-direction: row;
     flex-wrap: wrap;
     align-content: stretch;
@@ -81,4 +78,13 @@
     background-color: rgba(128, 128, 128, 0.5);
     color: white;
     height: 100%;
+    font-size: 25px;
+    display: none;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.element:hover .shadow {
+    display: flex;
 }
