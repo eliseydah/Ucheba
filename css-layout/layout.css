@@ -18,9 +18,6 @@ body {
 /* padding: 10px 5px; */
 /* } */
 
-a {
-    padding: 10px 5px;
-}
 
 .button-avatar {
     padding: 6px 2px 2px 2px;
@@ -33,12 +30,14 @@ button {
 a {
     color: gray;
     text-decoration: none;
+    padding: 10px 5px;
 }
 
 a:hover,
 /* .button:hover, */
 .button-avatar:hover,
-.list:hover {
+.list:hover,
+.settings:hover {
     background-color: rgb(0, 187, 255);
     color: white;
 }
@@ -72,6 +71,7 @@ header {
     background-color: rgb(70, 67, 67);
     display: flex;
     justify-content: center;
+    border-bottom: #555353 5px solid;
     /* height: 65px; */
     width: 100%;
     padding: 25px;
@@ -90,15 +90,9 @@ header {
 }
 
 /* .list, */
-.red,
-.green,
-.yellow,
-.purple,
-{
-height: 20px;
-width: 100%;
-vertical-align: middle;
-padding-top: 3%;
+
+.points li {
+    padding-top: 10px;
 }
 
 .list-point {
@@ -127,24 +121,29 @@ li span {
 }
 
 .content__left {
-    background-color: rgb(44, 43, 43);
+    background-color: rgb(70, 67, 67);
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 20%;
-    /* height: 100vh; */
+    height: 100vh;
 }
 
 .nav-menu {
     width: 100%;
     background-color: rgb(70, 67, 67);
-    margin-top: 3px;
+    /* margin-top: 3px; */
+    border-bottom: #555353 5px solid;
 }
 
 .points {
+    margin: 0px;
     /* background-color: rgb(70, 67, 67); */
-    margin-top: 3px;
-    margin-bottom: 3px;
+    /* margin-top: 3px; */
+    /* margin-bottom: 3px; */
+    padding: 15px 0px;
+    padding-inline-start: 35px;
+    border-bottom: #555353 5px solid;
 }
 
 .list {
@@ -169,6 +168,8 @@ article {
     padding: 20px 0px;
     font-size: 12px;
     text-align: center;
+    display: flex;
+    flex-direction: row;
 }
 
 body {
@@ -200,7 +201,7 @@ body {
 .line {
     display: flex;
     justify-content: space-evenly;
-    padding: 10px 5px;
+    padding: 10px 0px;
     list-style: none;
     /* height: 40px; */
     /* margin-left: 30px; */
@@ -210,8 +211,17 @@ body {
     padding: 2px 5px;
 }
 
+.fa-magnifying-glass {
+    position: relative;
+    right: 10px;
+}
+
 .content {
     display: flex;
+}
+
+.my-clock {
+    padding-left: 15px;
 }
 
 .line_button:hover {
@@ -219,6 +229,10 @@ body {
     color: white;
     height: 60%;
     border-radius: 20px;
+}
+
+.bold {
+    font-weight: bold;
 }
 
 .content__right {
@@ -231,6 +245,7 @@ body {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    padding-left: 10px;
 }
 
 .menu-navigation {
@@ -260,6 +275,7 @@ body {
 [type='search'] {
     border: none;
     outline: none;
+    padding-left: 15px;
 }
 
 header {
@@ -305,7 +321,14 @@ span {
 
 .settings {
     background-color: rgb(70, 67, 67);
+    color: gray;
+    padding: 7px;
+}
 
+.fa-star,
+.fa-star-half-stroke {
+    color: rgb(255, 230, 0);
+    width: 10px;
 }
 
 .down {
