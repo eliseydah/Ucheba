@@ -40,12 +40,14 @@
                     </ul>
                 </nav>
                 <!-- <nav class="points"> -->
-                <ul class="points">
-                    <li class="red"><span>Music Read Titles</span></li>
-                    <li class="yellow"><span>Best Of List</span></li>
-                    <li class="green"><span>Classic Novels</span></li>
-                    <li class="purple"><span>Non Fiction</span></li>
-                </ul>
+                <div class="list-point">
+                    <ul class="points">
+                        <li class="red"><span>Music Read Titles</span></li>
+                        <li class="yellow"><span>Best Of List</span></li>
+                        <li class="green"><span>Classic Novels</span></li>
+                        <li class="purple"><span>Non Fiction</span></li>
+                    </ul>
+                </div>
                 <!-- </nav> -->
                 <article>
                     You added fight club by Chack Palahniuk to your Must Read Titles
@@ -55,17 +57,20 @@
                 </article>
             </div>
             <div class="content__right">
-                <div class="firstblock">Browse Avaliable Books</div>
-                <div class="information-block">
-                    <div class="line">
-                        <div class="line_button">All Books</div>
-                        <div class="line_button">Most Recent</div>
-                        <div class="line_button">Most Popular</div>
-                        <div class="line_button">Free Books</div>
-                    </div>
-                    <div class="form"><label for="site-search"></label>
-                        <input type="search" id="site-search" name="q">
-                        <i class="fa-solid fa-magnifying-glass"></i>
+                <div class="title">
+                    <div class="firstblock">Browse Avaliable Books</div>
+                    <div class="information-block">
+                        <ul class="line">
+                            <li class="line_button">All Books</li>
+                            <li class="line_button">Most Recent</li>
+                            <li class="line_button">Most Popular</li>
+                            <li class="line_button">Free Books</li>
+                        </ul>
+                        <div class="form"><label for="site-search"></label>
+                            <input style="border-radius: 30px;" type="search" id="site-search" name="q"
+                                placeholder="Enter keywords">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </div>
                     </div>
                 </div>
                 <div class="maincontent">
@@ -115,8 +120,8 @@
     </main>
     <footer>
         <div class="down">
-            <span><i class="fa-sharp fa-regular fa-circle-question"></i> </span>
-            <span><i class="fa-sharp fa-solid fa-gear"></i></span>
+            <button class="settings"><a href=""><i class="fa-sharp fa-regular fa-circle-question"></i></a> </button>
+            <button class="settings"><a href=""><i class="fa-sharp fa-solid fa-gear"></i></a> </button>
         </div>
     </footer>
 </body>
